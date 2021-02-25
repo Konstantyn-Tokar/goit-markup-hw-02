@@ -1,3 +1,13 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+
 .link {
     text-decoration: none;
 }
@@ -11,7 +21,7 @@
 }
 
 .logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -24,8 +34,13 @@
     color:#000000;
 }
 
+.logo-dark-theme {
+    color: #FFFFFF;
+}
+
+/* =============== HEADER =============== */
+
 .navigation-link {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -41,7 +56,6 @@
 }
 
 .tel-link {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14px;
@@ -57,7 +71,6 @@
 }
 
 .post-link {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14px;
@@ -70,4 +83,88 @@
 .post-link:focus {
     color: #2196F3
 }
+/* =============== END HEADER =============== */
+
+/* =============== HERO =============== */
+
+.hero-titel {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    /* color: #FFFFFF; */
+}
+
+.modal-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    /* color: #FFFFFF; */
+
+}
+/* =============== END HERO =============== */
+
+
+/* =============== FEATURES =============== */
+.features-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+
+.features-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+/* =============== END FEATURES =============== */
+
+.section-subtitel {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+/* =============== TEAM =============== */
+.team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+
+}
+
+.team-des {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+/* =============== TEAM =============== */
 
