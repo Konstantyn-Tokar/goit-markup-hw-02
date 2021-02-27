@@ -1,6 +1,11 @@
 :root {
     --main-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
+    --color-pointed-btn: #188CE8;
+    --color-btn-text-pointed: #2196F3;
+    --color-aссent: #757575;
+    --color-text: #212121;
+    
 }
 
 body {
@@ -27,7 +32,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
 
-    color: #2196F3;
+    color: var(--color-btn-text-pointed);
 }
 
 .logo-light-theme {
@@ -45,13 +50,13 @@ body {
     letter-spacing: 0.03em;
     cursor: pointer;
 
-    color: #212121;
+    color: var(--color-text);
 }
 
 .filter-button:hover,
 .filter-button:focus {
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color:var(--color-btn-text-pointed);
 }
 
 /* =============== HEADER =============== */
@@ -62,13 +67,13 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    color: #212121;
+    color: var(--color-text);
 
 }
 
 .navigation-link:hover,
 .navigation-link:focus{
-    color: #2196F3;;
+    color: var(--color-btn-text-pointed);
 }
 
 .tel-link {
@@ -77,13 +82,13 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    color: #757575;
+    color: var(--color-aссent);
 
 }
 
 .tel-link:hover,
 .tel-link:focus {
-    color: #2196F3
+    color: var(--color-btn-text-pointed);
 }
 
 .post-link {
@@ -92,12 +97,12 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    color: #757575;
+    color: var(--color-aссent);
 }
 
 .post-link:hover,
 .post-link:focus {
-    color: #2196F3
+    color: var(--color-btn-text-pointed);
 }
 /* =============== END HEADER =============== */
 
@@ -119,7 +124,7 @@ body {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    background-color: #2196F3;
+    background-color: var(--color-btn-text-pointed);
     cursor: pointer;
     
     color: #FFFFFF;
@@ -129,7 +134,7 @@ body {
 
 .modal-button:hover,
 .modal-button:focus {
-    background-color: #188CE8;
+    background-color:var(--color-pointed-btn);
 }
 /* =============== END HERO =============== */
 
@@ -142,7 +147,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: #212121;
+    color: var(--color-text);
 }
 
 .features-description {
@@ -150,7 +155,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
 
-    color: #757575;
+    color: var(--colol-des);
 }
 /* =============== END FEATURES =============== */
 
@@ -161,7 +166,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: #212121;
+    color: var(--color-text);
 }
 
 /* =============== TEAM =============== */
@@ -172,7 +177,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: #212121;
+    color: var(--color-text);
 
 }
 
@@ -182,9 +187,28 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: #757575;
+    color: var(--colol-des);
 }
-/* =============== TEAM =============== */
+/* =============== END TEAM =============== */
+
+/* =============== FOOTER =============== */
+.footer-map-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+.footer-contacts-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: #ffffff99;
+}
+
+/* =============== END FOOTER =============== */
 
 /* ============= PROGECT =============  */
 .project-subtitle {
@@ -193,7 +217,7 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
 
-    color: #212121;
+    color: var(--color-text);
 }
 
 .project-description {
@@ -201,7 +225,6 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 
-color: #757575;
+color:var(--colol-des);
 }
 /* ============= END PROGECT =============  */
-
