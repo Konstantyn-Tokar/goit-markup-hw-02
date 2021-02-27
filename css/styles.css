@@ -5,8 +5,8 @@
     --color-btn-text-pointed: #2196F3;
     --color-aссent: #757575;
     --color-text: #212121;
-    --color-white: #FFFFFF;
-    --color-black: #000000;
+    --color-text-light-fon: #FFFFFF;
+    --color-text-dark-fon: #000000;
     --color-footer-contakts:#ffffff99;
     
 }
@@ -39,11 +39,11 @@ body {
 }
 
 .logo-light-theme {
-    color:var(--color-black);
+    color: var(--color-text-dark-fon);
 }
 
 .logo-dark-theme {
-    color: var(--color-white);
+    color: var(--color-text-light-fon);
 }
 
 .filter-button {
@@ -58,7 +58,7 @@ body {
 
 .filter-button:hover,
 .filter-button:focus {
-    color: var(--color-white);
+    color: var(--color-text-light-fon);
     background-color:var(--color-btn-text-pointed);
 }
 
@@ -119,7 +119,7 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    /* color: #FFFFFF; */
+    /* color: var(--color-text-light-fon); */
 }
 
 .modal-button {
@@ -130,7 +130,7 @@ body {
     background-color: var(--color-btn-text-pointed);
     cursor: pointer;
     
-    color: var(--color-white);
+    color: var(--color-text-light-fon);
     
 
 }
@@ -200,7 +200,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
 
-    color: var(--color-white);
+    color: var(--color-text-light-fon);
 }
 
 .footer-contacts-link {
@@ -228,6 +228,6 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 
-color:var(--color-aссent);
+color: var(--color-aссent);
 }
 /* ============= END PROGECT =============  */
